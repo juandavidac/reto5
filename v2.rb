@@ -53,11 +53,11 @@ class Game
   end
 end
 
-questionare = Archive.new('palabras.txt')
-a=questionare.extracting_question
+questionnaire = Archive.new('palabras.txt')
+a=questionnaire.extracting_question
 #print a
 #puts ''
-b=questionare.extracting_answer
+b=questionnaire.extracting_answer
 #print b
 game=Game.new(a,b)
 game.play
